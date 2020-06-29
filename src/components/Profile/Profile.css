@@ -1,0 +1,83 @@
+#profile-container {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+#photoIcon-container {
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+#photoIcon-container > * {
+  height: 100%;
+  width: 100%;
+}
+#profile {
+  padding-top: 10vh;
+}
+#username-container,
+#email-container {
+  padding-bottom: 35px;
+}
+#sign-out-container {
+  padding-bottom: 30px;
+}
+.MuiButton-containedPrimary {
+  margin-left: 20px !important;
+}
+#container-user-posts {
+  margin-top: 20px;
+}
+#container-user-posts h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.user-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 15px;
+}
+#posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-buttons {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.post-title {
+  margin-left: 20%;
+}
+#profile-posts-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#view-post {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#delete-post {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+#view-post > *,
+#delete-post > * {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,44 @@
+#register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.register-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+#register-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+}
+.form-label.MuiFormControl-marginNormal {
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+}
+#form-label-username,
+#form-label-email,
+#form-label-password {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#button.MuiButton-root {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+#login-text {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 15px;
+}

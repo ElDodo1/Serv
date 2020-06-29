@@ -1,0 +1,76 @@
+:root {
+  --main-font: sans-serif;
+}
+#page-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 10vh;
+  font-family: var(--main-font);
+}
+
+#post-price-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#post-title {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+#post-body {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#post-price {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#post-button {
+  padding-right: 15px;
+}
+.post-item {
+  padding-bottom: 35px;
+}
+#link {
+  text-decoration: none;
+}
+#comments-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+.comment-container {
+  border-bottom: 2px solid black;
+}
+#comment-creator-rating {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+#creator {
+  font-size: 25px;
+  font-weight: bold;
+}
+#rating {
+  font-size: 15px;
+}
+#creator-text {
+  padding-bottom: 20px;
+}
+#new-comment {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#link {
+  text-decoration: none;
+}

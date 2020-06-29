@@ -1,0 +1,29 @@
+/* .nav-bar.MuiAppBar-colorPrimary {
+  background-color: #456990;
+  color: #028090;
+} */
+.link {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #e4fde1;
+}
+.appbar-item {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.linkRouting {
+  color: white;
+  text-decoration: none;
+}
+.my-button.MuiButton-textPrimary:hover {
+  background-color: #115293;
+}
+.my-button.MuiButton-root {
+  font-size: 20px;
+}
+.my-button.MuiButton-textSecondary {
+  color: #e4fde1;
+}
+.my-button.MuiButton-textPrimary {
+  color: white;
+}

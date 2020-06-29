@@ -1,0 +1,65 @@
+#home-container {
+  padding-top: 12vh;
+}
+.Typewriter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.type-writter {
+  color: #4791db;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.home-container {
+  padding-top: 10%;
+  font-size: 20px;
+}
+.paper-container {
+  display: flex;
+  justify-content: center;
+}
+.paper-container > * {
+  width: 500px !important;
+  height: 300px !important;
+  margin: 15px !important;
+  border-radius: 15px !important;
+}
+.cursor-class {
+  font-size: 50px;
+  color: #02020a;
+  font-family: sans-serif;
+}
+.paper-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.paperTitle {
+  font-size: 25px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.paperBody {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.MuiButton-contained {
+  background-color: #e4fde1;
+  color: #114b5f;
+}
+.MuiButton-contained:hover {
+  background-color: #456990;
+  color: white;
+}
+.linkRouting {
+  color: white;
+  text-decoration: none;
+}

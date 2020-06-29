@@ -1,0 +1,42 @@
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.login-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+#login-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+}
+.input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#register-message {
+  margin: 10px auto;
+  font-weight: bold;
+  padding-top: 11rem;
+}
+.MuiInputBase-input {
+  text-align: center;
+}
+#button.MuiButton-root {
+  font-size: 1rem;
+  margin-top: 12px;
+}
+.register-button.MuiButton-root {
+  margin-bottom: 18px;
+}
